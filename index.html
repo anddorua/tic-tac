@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Tic-Tac-Toe</title>
+	<link rel="stylesheet" type="text/css" href="css/ttt.css"></link>
+	<script type="text/javascript" src="js/tttfield.js"></script>
+	<script type="text/javascript" src="js/tttline.js"></script>
+	<script type="text/javascript" src="js/tttgame.js"></script>
+	<script type="text/javascript" src="js/tttcontroller.js"></script>
+	<script type="text/javascript" src="js/tttview.js"></script>
+	<script type="text/javascript">
+		window.addEventListener('load', function(){
+			console.log('document loaded');
+			var view = new TTTView();
+			var controller = new TTTController(view);
+		});
+	</script>
+</head>
+<body>
+<div class="ttt-container">
+	<div class="field-head">
+		<div id="fh-progress">
+			Game time:
+			<div class="ttt-timer" id="fh-timer">00:00</div>
+			Your side:
+			<div class="ttt-state-informer" id="fh-state-informer">X</div>
+			<button id="abort-button">ABORT</button>
+		</div>
+		<div id="fh-finish">
+			<div class="ttt-result-banner" id="fh-result-banner">YOU LOSE</div>
+			<div class="ttt-restart-panel">
+				<button id="restart-button">RESTART</button>
+			</div>
+		</div>
+		<div id="fh-start">
+			<div class="ttt-choose-side-panel">
+				Choose the side:&nbsp;<button id="zero-button"> 0 </button>&nbsp;<button id="ex-button"> X </button>
+			</div>
+		</div>
+	</div>
+	<div class="game-field">
+		<canvas id="cnv" width="420" height="420">Fail: tag <pre><canvas></pre> not supported.</canvas>
+	</div>
+</div>
+</body>
+</html>

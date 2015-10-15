@@ -1,0 +1,80 @@
+.ttt-container {
+	max-width: 420px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+body {
+	background-color: #ffffcc;
+}
+.field-head {
+	padding: 6px;
+	border: 3px;
+	border-color: #cccc00;
+	border-style: solid;
+	border-radius: 6px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+#fh-progress {
+	height: 50px;
+}
+
+#fh-finish {
+	height: 50px;
+}
+#fh-start {
+	height: 50px;
+}
+
+#abort-button {
+	margin-left: 20px;
+}
+
+.ttt-timer {
+	display: inline-block;
+	width: 100px;
+	font-family: "Lucida Console", monospace;
+	font-size: 24px;
+	color: #800000;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #EBEBE0;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.ttt-state-informer {
+	display: inline-block;
+	width: 30px;
+	font-family: "Lucida Console", monospace;
+	font-size: 24px;
+	color: #800000;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #EBEBE0;
+	border-radius: 10px;
+}
+
+.ttt-result-banner {
+	display: inline-block;
+	width: 200px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #800000;
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	background-color: #EBEBE0;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+.ttt-restart-panel {
+	display: inline-block;
+	margin-left: 50px;
+}
+.ttt-choose-side-panel {
+	display: inline-block;
+	margin-top: 15px;
+}
