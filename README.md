@@ -1,3 +1,3 @@
 # tic-tac
-Just tic-tac game, exercise.
+Just tic-tac game, exersice.
 To run just open index.html
